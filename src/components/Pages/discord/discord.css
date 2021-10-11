@@ -1,0 +1,75 @@
+#discord {
+  position: relative;
+  width: 100%;
+  background: url("../../../assets/images/sky.jpg") no-repeat;
+  background-size: cover;
+  margin-top: 160px;
+  overflow: hidden;
+}
+
+#discord .container {
+  padding: 100px 60px !important;
+}
+
+.sr-top-fast {
+  visibility: visible;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transition: opacity 0.8s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 0.8s cubic-bezier(0.5, 0, 0, 1) 0.2s;
+}
+
+#discord h2 {
+  color: #01030d !important;
+  width: 45.55% !important;
+  margin-bottom: 25px !important;
+  font-size: 3rem !important;
+}
+
+.sr-top-fast-delayed {
+  visibility: visible;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transition: opacity 0.8s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 0.8s cubic-bezier(0.5, 0, 0, 1) 0.5s;
+}
+
+#discord p {
+  width: 44.44% !important;
+  margin: 0 0 50px !important;
+}
+
+.sr-top-more-delayed {
+  visibility: visible;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transition: opacity 0.8s cubic-bezier(0.5, 0, 0, 1) 0.8s, transform 0.8s cubic-bezier(0.5, 0, 0, 1) 0.8s;
+}
+
+#discord .cta {
+  padding: 16px 30px;
+  background: #4753d6;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  transition: all .3s ease-in-out;
+}
+
+#discord .cta:hover {
+  background: #6c77ea;
+}
+
+.meka {
+  visibility: visible;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transition: opacity 1.2s cubic-bezier(0.5, 0, 0, 1) 0.6s, transform 1.2s cubic-bezier(0.5, 0, 0, 1) 0.6s;
+}
+
+#discord .meka {
+  position: absolute;
+  width: 580px;
+  height: 427px;
+  background: url("../../../assets/images/meka_blue.png") no-repeat;
+  background-size: cover;
+  bottom: 0;
+  right: 0;
+}

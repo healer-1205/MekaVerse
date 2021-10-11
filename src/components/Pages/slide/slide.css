@@ -1,0 +1,49 @@
+.sr-top-more-delayed {
+  visibility: visible !important;
+  opacity: 1 !important;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1) !important;
+  transition: opacity 0.8s cubic-bezier(0.5, 0, 0, 1) 0.8s, transform 0.8s cubic-bezier(0.5, 0, 0, 1) 0.8s !important;
+}
+
+#gallery {
+  margin-bottom: 200px;
+}
+
+#gallery img {
+  width: 40vw;
+  max-width: 440px;
+  height: auto;
+  margin: 30px 15px;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+#gallery img:hover {
+  transform: scale(1.01);
+}
+
+.slideDot {
+  width: 40px;
+  height: 12px;
+  background: #4e619a !important;
+  margin: 1px;
+  border: 5px solid #01030d;
+  transition: all .3s ease-in-out;
+}
+
+.slideDot:hover {
+  background: #4753d6;
+}
+
+.active.slideDot {
+  background: #ffffff !important;
+}
+
+.react-multi-carousel-list {
+  padding-left: 1% !important;
+}
+
+.react-multi-carousel-dot-list {
+  /* position: relative !important; */
+  margin-top: 50px !important;
+}

@@ -1,0 +1,101 @@
+footer .container {
+  justify-content: space-between !important;
+  margin: 70px auto !important;
+}
+
+.infos {
+  visibility: visible;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transition: opacity 0.8s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 0.8s cubic-bezier(0.5, 0, 0, 1) 0.2s;
+}
+
+footer .infos {
+  width: 44.44%;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .typo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 20px;
+}
+
+footer .baseline {
+  font-weight: 300;
+  color: #fff;
+  margin-top: 10px !important;
+}
+
+footer .copyright {
+  font-size: 1rem;
+  color: #848198;
+  font-weight: 300;
+  margin-top: 40px !important;
+}
+
+footer .right {
+  width: 22.22% !important;
+  justify-content: space-between !important;
+}
+
+footer .nav a:first-child {
+  color: #fff;
+}
+
+footer .nav a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #4e619a;
+  transition: all .3s ease-in-out;
+}
+
+footer .social {
+  margin-top: 40px;
+}
+
+footer .link {
+  border: 1px solid #4753d6;
+  width: 44px;
+  height: 44px;
+  margin-right: 15px;
+  box-shadow: inset 0 0 0 #4753d6;
+  transition: all .3s ease-in-out;
+}
+
+footer .link a {
+  width: 44px;
+  height: 44px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .link:hover {
+  box-shadow: inset 0 -54px 0 #4753d6;
+}
+
+footer .twitter {
+  background-color: #fff !important;
+  -webkit-mask: url("../../../assets/images/twitter.svg") no-repeat center;
+}
+
+footer .opensea {
+  background-color: #fff !important;
+  -webkit-mask: url("../../../assets/images/opensea.svg") no-repeat center;
+}
+
+footer .discord {
+  background-color: #fff !important;
+  -webkit-mask: url("../../../assets/images/discord.svg") no-repeat center;
+}
+
+a:hover {
+  color: #6c77ea !important;
+}

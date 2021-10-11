@@ -1,0 +1,68 @@
+#presentation {
+  margin-top: 150px !important;
+  margin-bottom: 150px !important;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.description {
+  visibility: visible;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transition: opacity 0.8s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 0.8s cubic-bezier(0.5, 0, 0, 1) 0.2s;
+}
+
+#presentation .description {
+  width: calc(50% - 60px);
+  min-width: 370px;
+}
+
+h2 {
+  font-size: 2.8rem !important;
+  line-height: 3.6rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 35px !important;
+  color: white !important;
+}
+
+.degrade {
+  background: linear-gradient(90deg,#d02561,#ff79a8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  margin: 30px 0 0 !important;
+}
+
+.examples {
+  visibility: visible;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transition: opacity 0.8s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 0.8s cubic-bezier(0.5, 0, 0, 1) 0.5s;
+}
+
+#presentation .examples {
+  position: relative;
+  width: calc(50% - 30px);
+}
+
+#presentation .various {
+  width: 100%;
+}
+
+video {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#presentation .examples:after {
+  position: absolute;
+  content: "";
+  width: 145px;
+  height: 145px;
+  background: url("../../../assets/images/pyramyd.png") no-repeat;
+  right: -60px;
+  top: 60px;
+}
